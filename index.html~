@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html>
+  <style> 
+    code { 
+    white-space: pre; 
+    } 
+    body {
+    background-color: #b7d1c4 
+    }
+    h1 { 
+    font-weight: bold; 
+    font-family: Georgia, serif; 
+    }
+    h2 { 
+    font-weight: bold;
+    font-family: Georgia, serif;
+    }
+    h3 { 
+    font-family: Georgia, serif;
+    font-size: 22px;
+    }
+    p { 
+    font-family: Georgia, serif;  
+    padding-left: 30px; 
+    padding-right: 250px;
+    }
+    code { 
+    font-size: 15px;
+    }
+  </style>
+  <head>
+    <title>Mice & Bamboo</title> 
+  </head> 
+  
+  <body> 
+    <h1>DEMO DEMO DEMO</h1>
+    <h2>Intro</h2> 
+    <p>Get ready, coders, data analyzers, and bear-lovers of the world...
+      <br>
+      <b>Python Pandas</b> is about to be your new best friend! 
+    </p>  
+    <p>
+      Pandas is an open-source Python library geared towards complex data analysis. While your typical <code>.py</code> file can handle dealing with numbers and data to a small extent, Python either doesn't support or is very slow at configuring large-scale data. Here's where Pandas comes in: it utilizes <code>numpy</code> and <code>scipy</code> to manipulate data on a macro scale.
+    </p>
+    <h2>How To Use</h2> 
+    <p>Pandas is a package that requires installation via <a href="https://pip.pypa.io/en/stable/installing/">pip</a>, a Python package manager. Once you've run "pip install pandas", pandas'll be easily accessible in your Python file through "import pandas". 
+    </p>
+    <h2>Types of Data Strutures in Pandas</h2> 
+    <h3>Series</h3>
+    <p>
+      Series in pandas are one-dimensional objects similar to lists or arrays. They hold indexed items that operations and functions can be applied to.
+    </p>  
+    <p>
+      Series can be manipulated really easily -- you can pick and choose elements to change, get a list of things that meet certain boolean criteria, concatenate series together, and do mathematical operations, and the list goes on.</p> 
+    <p>
+      Contextualized data and things with categories are far easier to visualize with pandas than with generic Python, making it a more user-friendly package.
+    </p>
+    <h3>Constructing and Using Series</h3>
+    <p>To create a series:
+      <code>
+	seriesName = pandas.Series(['a', 'b', 'c']) 
+      </code>
+    </p>
+    <p>Printing seriesName would output: 
+      <code>
+	0    a
+	1    b
+	2    c
+	dtype: object
+      </code>
+    </p>
+    <h3>Operations Using Series</h3>
+    <p>
+      Series contain indexed data values. The indices are changeable, for further readability. 
+      <code> 
+	seriesName.index = ["Letter 1", "Letter 2", "Letter 3"] 
+      </code>
+      <br>
+      Printing seriesName now would return: 
+      <code> 
+	Letter 1    a
+	Letter 2    b
+	Letter 3    c
+	dtype: object
+      </code>
+    </p>
+    <p>
+      In addition, mathematical operations can be performed (if possible) on all data values within a Series or a specific index.
+      <br>
+      <a href="http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html">Read more about the Series constructor and its attributes here.</a>
+    </p>
+    
+    <h2>The code only gets messier from here on out...</h2> 
+    <p> Coding is difficult!<br> 
+      Wouldn't it be lovely if Eric worked on this too? :'( 
+  </p>
+
+</body> 
+
+</html> 
